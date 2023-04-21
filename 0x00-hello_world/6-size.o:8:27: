@@ -1,0 +1,11 @@
+ze of a char: 8d byte (s) \n", sizeof (char)):
+C
+int
+long unsigned int
+81d
+6-size.o:9:27: warning: format '8d' expects argument of type 'int', but argument 2 has type 'long unsigned int' [-Wormat=]ze of a char: 8d byte (s) \n", sizeof (char)):
+C
+int
+long unsigned int
+81d
+6i-size.o:9:27: warning: format '8d' expects argument of type 'int', but argument 2 has type 'long unsigned int' [-Wormat=]i
