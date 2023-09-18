@@ -41,6 +41,11 @@ int mul(int a, int b)
  */
 int dv(int a, int b)
 {
+	if (b == 0)
+	{
+		printf("Error: Division by zero\n");
+		return (0);
+	}
 	return (a / b);
 }
 
@@ -52,5 +57,10 @@ int dv(int a, int b)
  */
 int mod(int a, int b)
 {
+	if (b == 0)
+	{
+		printf("Eroor: Division by zero\n");
+		return (0);
+	}
 	return (a % b);
 }
